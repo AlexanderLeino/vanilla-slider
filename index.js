@@ -7,7 +7,6 @@ document.addEventListener("click", e => {
         handle = e.target.closest(".handle")
     }
     if (handle != null) {
-        console.log(handle)
         onHandleClick(handle)
     }
 })
